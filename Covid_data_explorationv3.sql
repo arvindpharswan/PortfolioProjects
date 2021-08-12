@@ -1,4 +1,8 @@
 -- the dataset used for these queries is pulled from https://ourworldindata.org/covid-deaths and then splitted into three parts as Deaths and vaccinations and information
+/*
+Covid 19 Data Exploration 
+Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+*/
 SELECT*
 FROM PortfolioProject..Deaths
 ORDER BY 3,4;
